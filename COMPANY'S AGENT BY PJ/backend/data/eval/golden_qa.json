@@ -1,0 +1,159 @@
+{
+  "description": "Golden Q&A set for PolicyPilot evaluation. expected_doc / expected_section are matched against retrieved chunks for retrieval hit-rate; reference is used by the LLM judge for answer scoring.",
+  "items": [
+    {
+      "id": "leave-001",
+      "question": "How many annual leave days do I get per year and how many can I carry forward?",
+      "reference": "24 working days of annual leave per year, credited at 2 days per month. A maximum of 8 unused days can be carried forward to the next year; anything above 8 lapses on 31 December.",
+      "expected_doc": "Employee Leave and Attendance Policy",
+      "expected_section": "Annual Leave"
+    },
+    {
+      "id": "leave-002",
+      "question": "Do I need a doctor's certificate for sick leave?",
+      "reference": "Yes, a medical certificate is mandatory for any sick leave of 3 or more consecutive working days, uploaded to HRMS within 5 working days of returning.",
+      "expected_doc": "Employee Leave and Attendance Policy",
+      "expected_section": "Sick Leave"
+    },
+    {
+      "id": "leave-003",
+      "question": "How many casual leave days can I take in a row?",
+      "reference": "Casual leave cannot be taken for more than 3 consecutive working days. Entitlement is 6 days per year and it cannot be carried forward.",
+      "expected_doc": "Employee Leave and Attendance Policy",
+      "expected_section": "Casual Leave"
+    },
+    {
+      "id": "leave-004",
+      "question": "How much paternity leave do I get and when must I use it?",
+      "reference": "10 working days of paid paternity leave, to be availed within 3 months of the birth or legal adoption. It can be one block or split into at most two blocks.",
+      "expected_doc": "Employee Leave and Attendance Policy",
+      "expected_section": "Paternity Leave"
+    },
+    {
+      "id": "leave-005",
+      "question": "What happens if my manager never approves my leave request in the HRMS?",
+      "reference": "If a request is unactioned for more than 3 working days, the HRMS escalates it to People Operations, who may approve it on the manager's behalf if within entitlement.",
+      "expected_doc": "Employee Leave and Attendance Policy",
+      "expected_section": "Leave Approval Workflow"
+    },
+    {
+      "id": "leave-006",
+      "question": "Who approves leave without pay and what is the yearly limit?",
+      "reference": "Leave without pay requires approval of the Head of People Operations and is capped at 30 days per calendar year.",
+      "expected_doc": "Employee Leave and Attendance Policy",
+      "expected_section": "Leave Without Pay"
+    },
+    {
+      "id": "leave-007",
+      "question": "How many late arrivals are allowed before there is any consequence?",
+      "reference": "More than 6 late marks in a calendar quarter results in the deduction of one day of casual leave. A late mark means arriving more than 15 minutes after shift start.",
+      "expected_doc": "Employee Leave and Attendance Policy",
+      "expected_section": "Attendance and Late Arrivals"
+    },
+    {
+      "id": "leave-008",
+      "question": "What happens if I do not show up to work for several days without informing anyone?",
+      "reference": "An absence that is neither approved nor regularised for 3 consecutive working days may be treated as voluntary abandonment of employment.",
+      "expected_doc": "Employee Leave and Attendance Policy",
+      "expected_section": "Emergency and Uninformed Absence"
+    },
+    {
+      "id": "it-001",
+      "question": "What are the password requirements at the company?",
+      "reference": "At least 12 characters, no reuse of the last 5 passwords, no routine expiry but immediate change if exposed. Passphrases recommended and a company password manager is the approved storage.",
+      "expected_doc": "IT Security and Acceptable Use Policy",
+      "expected_section": "Password Requirements"
+    },
+    {
+      "id": "it-002",
+      "question": "Is multi-factor authentication mandatory and for which systems?",
+      "reference": "Yes, MFA is mandatory for VPN access, corporate email, the HRMS, cloud consoles and all remote access. Privileged users must use hardware security keys.",
+      "expected_doc": "IT Security and Acceptable Use Policy",
+      "expected_section": "Multi-Factor Authentication"
+    },
+    {
+      "id": "it-003",
+      "question": "Can I install software on my work laptop myself?",
+      "reference": "Software may be installed only from the Company Software Portal. Employees do not have local admin rights by default; elevation requests expire after 24 hours.",
+      "expected_doc": "IT Security and Acceptable Use Policy",
+      "expected_section": "Software Installation"
+    },
+    {
+      "id": "it-004",
+      "question": "I clicked a link in a suspicious email and entered my password. What should I do?",
+      "reference": "Report it as a security incident to security@nimbussoft.example or the 24x7 hotline within 2 hours of discovery. Do not power off the device; disconnect it from the network and leave it on.",
+      "expected_doc": "IT Security and Acceptable Use Policy",
+      "expected_section": "Security Incident Reporting"
+    },
+    {
+      "id": "it-005",
+      "question": "What are the data classification levels?",
+      "reference": "Four classes: Public, Internal, Confidential and Restricted. Restricted data (customer PII, source code, financial records, credentials) has the strictest handling rules.",
+      "expected_doc": "IT Security and Acceptable Use Policy",
+      "expected_section": "Data Classification"
+    },
+    {
+      "id": "it-006",
+      "question": "Can I paste customer data into an external AI chatbot to summarise it?",
+      "reference": "No. Restricted data must never be pasted into unapproved external tools, including public AI chatbots. Sharing Restricted data externally needs an NDA and Information Security approval.",
+      "expected_doc": "IT Security and Acceptable Use Policy",
+      "expected_section": "Data Classification"
+    },
+    {
+      "id": "it-007",
+      "question": "How soon must I report a lost laptop?",
+      "reference": "A lost device is a security incident and must be reported within 2 hours of discovery to security@nimbussoft.example or the 24x7 hotline.",
+      "expected_doc": "IT Security and Acceptable Use Policy",
+      "expected_section": "Security Incident Reporting"
+    },
+    {
+      "id": "rw-001",
+      "question": "Who can work fully remote and who approves it?",
+      "reference": "Fully remote arrangements are exceptional and require written approval from both the department head and the Head of People Operations. Bengaluru and Hyderabad employees otherwise work from office at least 2 days per week.",
+      "expected_doc": "Remote Work and Expense Reimbursement Policy",
+      "expected_section": "Remote Work Eligibility"
+    },
+    {
+      "id": "rw-002",
+      "question": "What are the core hours when working from home?",
+      "reference": "Core collaboration window is 11:00 to 16:00 IST; during core hours remote employees must respond to direct messages within 60 minutes.",
+      "expected_doc": "Remote Work and Expense Reimbursement Policy",
+      "expected_section": "Core Hours and Availability"
+    },
+    {
+      "id": "rw-003",
+      "question": "How much is the home office setup stipend?",
+      "reference": "One-time stipend of Rs. 25,000 for approved fully remote employees and Rs. 10,000 for hybrid employees, claimed with receipts within 90 days.",
+      "expected_doc": "Remote Work and Expense Reimbursement Policy",
+      "expected_section": "Home Office Setup Stipend"
+    },
+    {
+      "id": "rw-004",
+      "question": "What is the monthly internet reimbursement?",
+      "reference": "Rs. 1,500 per month for fully remote employees, claimed monthly with a bill copy. Hybrid employees are not eligible.",
+      "expected_doc": "Remote Work and Expense Reimbursement Policy",
+      "expected_section": "Internet Reimbursement"
+    },
+    {
+      "id": "rw-005",
+      "question": "If I buy an 8000 rupee monitor for work, who needs to approve the expense?",
+      "reference": "Expenses between Rs. 5,000 and Rs. 15,000 require manager and finance approval. Claims must be submitted within 30 days with an itemised bill.",
+      "expected_doc": "Remote Work and Expense Reimbursement Policy",
+      "expected_section": "Expense Limits and Approvals"
+    },
+    {
+      "id": "rw-006",
+      "question": "When do I have to return my laptop after resigning?",
+      "reference": "All company equipment must be returned within 10 working days of your last working day during exit clearance.",
+      "expected_doc": "Remote Work and Expense Reimbursement Policy",
+      "expected_section": "Company Equipment"
+    },
+    {
+      "id": "rw-007",
+      "question": "Is the home office stipend clawed back if I resign early?",
+      "reference": "If you resign within 6 months of receiving the stipend, 50 percent is recovered in the final settlement. After 6 months no clawback applies.",
+      "expected_doc": "Remote Work and Expense Reimbursement Policy",
+      "expected_section": "Stipend Clawback on Early Exit"
+    }
+  ]
+}
